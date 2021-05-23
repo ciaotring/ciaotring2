@@ -1,11 +1,12 @@
 # ciaotring2
 
 # 嵌入式系統
-	KiCAD	http://www.kicad-pcb.org/	電路設計(PCB)
-		https://github.com/peng-zhihui/HDMI-PI
-		https://github.com/ylj2000/HDMI_To_MIPI
-		https://dongka.github.io/2019/02/27/display/display_hardware/
+	電路設計KiCAD(PCB)	http://www.kicad-pcb.org/
+			https://github.com/peng-zhihui/HDMI-PI
+			https://github.com/ylj2000/HDMI_To_MIPI
+			https://dongka.github.io/2019/02/27/display/display_hardware/
 
+	野火STM32	https://github.com/Embedfire-stm32f429-tiaozhanzhe
 
 # 程試算法
 	開源BLOG    https://github.com/otale/tale/blob/master/README_ZH.md
