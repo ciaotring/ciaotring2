@@ -1,0 +1,3 @@
+
+rpi-eeprom-recovery-c1325cd20
+	考貝到TF卡中，插入PI4，然後重新啟動，等待更新eeprom，就可以從 USB HDD存儲器啟動；

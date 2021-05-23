@@ -1,0 +1,14 @@
+
+
+1. 新建ssh名的文件：U盤下，找到boot分區，在此目錄下，新建一个"ssh“名稱的文件（只是标志，不用任何内容）；
+2. config.txt 在文末另起一行，寫入dtoverlay=dwc2
+3. boot分区找到cmdline.txt, 在 rootwait 後插入 modules-load=dwc2,g_ether
+
+安裝驅動：
+	树莓派那边的接口是没有pwr标识的那个，这时候不需要给树莓派通电，树莓派会自动从usb连接线中获得足够的电量。当树莓派连接到电脑后，一个绿色的灯将亮起来。
+	电脑是会自动识别树莓派并安装RNDIS/Ethernet Gadget驱动的，推荐使用windows10系统以便于安装驱动。；
+
+ip地址：raspberrypi.local
+端口：22
+用户名：pi
+登录密码：raspberry
